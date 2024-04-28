@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+//空白
+$space-XS: 0.25rem; //4px
+$space-S: 0.5rem; //8px
+$space-M: 1rem; //16px
+$space-L: 1.5rem; //24px
+$space-XL: 2rem; //32px
+
+.body {
+    background-color: #EEFAFF;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+.container {
+    max-width: 960px;
+
+    margin: {
+        right: auto;
+        left: auto;
+    }
+
+    display: flex;
+    flex-direction: column;
+    gap: $space-XL;
+    color: #3d3d3d;
+}
+
+.titile {
+    text-align: center;
+    // margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.5rem;
+}
+
+.content {
+    // border: 1px solid gray;
+    background-color: #ffffff;
+    padding: $space-XL;
+
+    &__sectionTitle {
+        font-size: 2.2rem;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: $space-L;
+
+    &__contentTitle {
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    &__skillLists {
+        display: flex;
+        flex-direction: column;
+        gap: $space-M;
+        margin: 0;
+        padding-left: $space-L;
+        // padding: 0;
+    }
+
+    // &__skillArea {
+    //     list-style: none;
+    // }
+
+    &__skillTitle {
+        margin: 0;
+    }
+
+    &__skillText {
+        margin: 0;
+    }
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    gap: $space-L;
+
+    &__lists {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: $space-M;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #75d6ff;;
+        padding: $space-M;
+        gap: $space-S;
+    }
+
+    &__Title {
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    &__link {
+        color: inherit;
+        text-decoration: none;
+        padding: $space-S;
+        width: 10rem;
+        text-align: center;
+
+        border: {
+            width: 1px;
+            style: solid;
+            radius: 2rem
+        }
+
+        &:hover {
+            background-color: #f3f3f3;
+        }
+    }
+
+    &__explanation {
+        margin: 0;
+    }
+}

@@ -1,15 +1,100 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name=”viewport” content=”width=device-width,initial-scale=1″>
+    <link rel="stylesheet" href="./style.css">
     <title>hazuki's Portfolio</title>
 </head>
 
-<body>
-    <h1>hazuki's Portfolio</h1>
-    <p>ポートフォリオページです</p>
-    <a href="https://tsukitsuki-0305.github.io/imitation_x">imitation_x</a>
+<body class="body">
+    <h1 class="titile">HAZUKI's PORTFOLIO</h1>
+
+    <div class="container">
+
+        <details class="content about">
+
+            <summary class="content__sectionTitle">ABOUT</summary>
+
+            <div class="about__content">
+                <ruby class="about__nameRuby">岡村 葉月</ruby>
+                <h3 class="about__contentTitle">OKAMURA HAZUKI</h3>
+                <p class="about__text">
+                    1998年、静岡県生まれ。
+                </p>
+                <p class="about__text">
+                    大学時代に情報学部で学び、大学2年以降はコンテンツのデザインを行うコースで「デザイン」を学ぶ。
+                    2021年に就職した企業ではWebに関わる部署に所属し、自社サイトの微修正や企画立案、他社サイトのディレクションなどを行う。
+                    その後2022年からエンジニアとして自社製品の微修正やお客様向けカスタマイズを行う。
+                </p>
+            </div>
+
+            <div class="about__content">
+                <h3 class="about__contentTitle">SKILL</h3>
+                <ul class="about__skillLists">
+                    <li class="about__skillArea">
+                        <h4 class="about__skillTitle">Vue.js</h4>
+                        <p class="about__skillText">
+                            エンジニアとして業務に当たる中で多く使用しておりました。研修では0から掲示板アプリの作成に取り組んでおりますが、実務では0から作成した経験はなく、すでにある製品の修正や機能追加といった業務を担当いたしました。
+                        </p>
+                    </li>
+                    <li class="about__skillArea">
+                        <h4 class="about__skillTitle">Node.js</Node>
+                        </h4>
+                        <p class="about__skillText">
+                            エンジニアとして業務に当たる中で使用しておりました。研修時以外では多くは使用しておりませんが、何度か使用した形です。
+                        </p>
+                    </li>
+                    <li class="about__skillArea">
+                        <h4 class="about__skillTitle">PostgreSQL</h4>
+                        <p class="about__skillText">
+                            エンジニアとして業務に当たる中で多く使用しておりました。研修時の使用の他、正しくデータを取得できているかなどを確認するために使用しておりました。
+                        </p>
+                    </li>
+                    <li class="about__skillArea">
+                        <h4 class="about__skillTitle">HTML</h4>
+                        <p class="about__skillText">
+                            実務での経験はあまり多くありませんが、大学時代に自分たちのプロジェクト（ゼミのようなもの）のサイトを作成したり、授業内の課題として作成した経験があります。また、Vue.jsでの開発に当たり、HTMLの知識使用も行いました。
+                        </p>
+                    </li>
+                    <li class="about__skillArea">
+                        <h4 class="about__skillTitle">CSS</h4>
+                        <p class="about__skillText">
+                            上記のHTML同様、学生時代に多く使用しておりました。また、実務ではVue.jsで作成したアプリケーションの装飾にCSSやSCSSを使用しておりました。
+                        </p>
+                    </li>
+                    <li class="about__skillArea">
+                        <h4 class="about__skillTitle">illustrator</h4>
+                        <p class="about__skillText">
+                            実務では使用しておりませんが、大学自体にロゴや画像の作成を行った経験があります。簡単な操作であれば行うことが可能です。
+                        </p>
+                    </li>
+                    <li class="about__skillArea">
+                        <h4 class="about__skillTitle">Photoshop</h4>
+                        <p class="about__skillText">
+                            実務では使用しておりませんが、大学自体に画像の編集を行った経験があります。簡単な操作であれば行うことが可能です。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+        </details>
+
+        <details open class="content works">
+            <summary class="content__sectionTitle">WORKS</summary>
+            <ul class="works__lists">
+                <li class="works__list">
+                    <h3 class="works__Title">imitation_x</h3>
+                    <a class="works__link" href="https://tsukitsuki-0305.github.io/imitation_x">imitation_x</a>
+                    <p class="works__explanation">
+                        Next.js（JavaScript）を使用して、X（旧Twitter）のようなページを作成しました。<br>
+                        データに関しては今回データベースを使用せず、JSONを使用して取得しています。
+                    </p>
+                </li>
+            </ul>
+        </details>
+    </div>
 </body>
 
 </html>
