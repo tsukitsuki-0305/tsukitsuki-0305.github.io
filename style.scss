@@ -53,6 +53,10 @@ $space-XL: 2rem; //32px
     flex-direction: column;
     gap: $space-L;
 
+    &__content{
+        padding-top:$space-M;
+    }
+
     &__contentTitle {
         margin: 0;
         font-size: 1.4rem;
@@ -88,6 +92,7 @@ $space-XL: 2rem; //32px
     &__lists {
         margin: 0;
         padding: 0;
+        padding-top:$space-M;
         display: flex;
         flex-direction: column;
         gap: $space-M;
