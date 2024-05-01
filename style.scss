@@ -12,7 +12,8 @@ $space-XL: 2rem; //32px
 .body {
     background-color: #EEFAFF;
     // font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
-    font-family: "游ゴシック", YuGothic, Verdana, Roboto, "Droid Sans", "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
+    // font-family: "游ゴシック", YuGothic, Verdana, Roboto, "Droid Sans", "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
+    font-family: "游ゴシック", YuGothic, Helvetica, Verdana, Roboto, "Droid Sans", "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
 }
 
 .container {
@@ -81,7 +82,7 @@ $space-XL: 2rem; //32px
 
         @media screen and (max-width: 767px) {
             font-size: 1.2rem;
-            font-weight: normal;
+            // font-weight: normal;
         }
     }
 
@@ -102,7 +103,7 @@ $space-XL: 2rem; //32px
         margin: 0;
 
         @media screen and (max-width: 767px) {
-            font-weight: normal;
+            // font-weight: normal;
         }
     }
 
@@ -141,7 +142,7 @@ $space-XL: 2rem; //32px
 
         @media screen and (max-width: 767px) {
             font-size: 1.2rem;
-            font-weight: normal;
+            // font-weight: normal;
         }
     }
 

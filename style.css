@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 .body {
   background-color: #EEFAFF;
-  font-family: "游ゴシック", YuGothic, Verdana, Roboto, "Droid Sans", "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
+  font-family: "游ゴシック", YuGothic, Helvetica, Verdana, Roboto, "Droid Sans", "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
 }
 
 .container {
@@ -69,7 +69,6 @@
 @media screen and (max-width: 767px) {
   .about__contentTitle {
     font-size: 1.2rem;
-    font-weight: normal;
   }
 }
 .about__skillLists {
@@ -81,11 +80,6 @@
 }
 .about__skillTitle {
   margin: 0;
-}
-@media screen and (max-width: 767px) {
-  .about__skillTitle {
-    font-weight: normal;
-  }
 }
 .about__skillText {
   margin: 0;
@@ -119,7 +113,6 @@
 @media screen and (max-width: 767px) {
   .works__Title {
     font-size: 1.2rem;
-    font-weight: normal;
   }
 }
 .works__link {
