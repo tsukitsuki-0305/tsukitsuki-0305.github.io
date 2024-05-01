@@ -26,6 +26,11 @@ $space-XL: 2rem; //32px
     flex-direction: column;
     gap: $space-XL;
     color: #3d3d3d;
+
+    // @media screen and (max-width: 767px) {
+    //     min-width: 500px;
+    //     padding: 0 2rem;
+    // }
 }
 
 .titile {
@@ -33,6 +38,10 @@ $space-XL: 2rem; //32px
     // margin: 0;
     font-family: "Josefin Sans", sans-serif;
     font-size: 2.5rem;
+
+    // @media screen and (max-width: 767px) {
+    //     font-size: 3.5rem;
+    // }
 }
 
 .content {
@@ -53,8 +62,8 @@ $space-XL: 2rem; //32px
     flex-direction: column;
     gap: $space-L;
 
-    &__content{
-        padding-top:$space-M;
+    &__content {
+        padding-top: $space-M;
     }
 
     &__contentTitle {
@@ -92,7 +101,7 @@ $space-XL: 2rem; //32px
     &__lists {
         margin: 0;
         padding: 0;
-        padding-top:$space-M;
+        padding-top: $space-M;
         display: flex;
         flex-direction: column;
         gap: $space-M;
@@ -102,7 +111,8 @@ $space-XL: 2rem; //32px
         list-style: none;
         display: flex;
         flex-direction: column;
-        border: 1px solid #75d6ff;;
+        border: 1px solid #75d6ff;
+        ;
         padding: $space-M;
         gap: $space-S;
     }
