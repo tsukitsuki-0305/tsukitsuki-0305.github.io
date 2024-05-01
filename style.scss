@@ -11,7 +11,8 @@ $space-XL: 2rem; //32px
 
 .body {
     background-color: #EEFAFF;
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    // font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
+    font-family: "游ゴシック", YuGothic,Verdana, Roboto, "Droid Sans",  "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
 }
 
 .container {
@@ -27,10 +28,10 @@ $space-XL: 2rem; //32px
     gap: $space-XL;
     color: #3d3d3d;
 
-    // @media screen and (max-width: 767px) {
-    //     min-width: 500px;
-    //     padding: 0 2rem;
-    // }
+    @media screen and (max-width: 767px) {
+        min-width: 300px;
+        padding: 0 0.5rem;
+    }
 }
 
 .titile {
@@ -39,21 +40,27 @@ $space-XL: 2rem; //32px
     font-family: "Josefin Sans", sans-serif;
     font-size: 2.5rem;
 
-    // @media screen and (max-width: 767px) {
-    //     font-size: 3.5rem;
-    // }
+    @media screen and (max-width: 767px) {
+        font-size: 1.5rem;
+    }
 }
 
 .content {
     // border: 1px solid gray;
     background-color: #ffffff;
     padding: $space-XL;
+    @media screen and (max-width: 767px) {
+        padding: $space-M;
+    }
 
     &__sectionTitle {
         font-size: 2.2rem;
         font-family: "Josefin Sans", sans-serif;
         font-weight: bold;
         margin: 0;
+        @media screen and (max-width: 767px) {
+            font-size: 1.3rem;
+        }
     }
 }
 
@@ -69,6 +76,9 @@ $space-XL: 2rem; //32px
     &__contentTitle {
         margin: 0;
         font-size: 1.4rem;
+        @media screen and (max-width: 767px) {
+            font-size: 1.2rem;
+        }
     }
 
     &__skillLists {
