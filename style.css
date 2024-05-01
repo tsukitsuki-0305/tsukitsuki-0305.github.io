@@ -29,7 +29,7 @@
 }
 @media screen and (max-width: 767px) {
   .titile {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -50,7 +50,7 @@
 }
 @media screen and (max-width: 767px) {
   .content__sectionTitle {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -69,6 +69,7 @@
 @media screen and (max-width: 767px) {
   .about__contentTitle {
     font-size: 1.2rem;
+    font-weight: normal;
   }
 }
 .about__skillLists {
@@ -80,6 +81,11 @@
 }
 .about__skillTitle {
   margin: 0;
+}
+@media screen and (max-width: 767px) {
+  .about__skillTitle {
+    font-weight: normal;
+  }
 }
 .about__skillText {
   margin: 0;
@@ -109,6 +115,12 @@
 .works__Title {
   margin: 0;
   font-size: 1.4rem;
+}
+@media screen and (max-width: 767px) {
+  .works__Title {
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
 }
 .works__link {
   color: inherit;
