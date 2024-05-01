@@ -42,7 +42,9 @@ $space-XL: 2rem; //32px
     font-size: 2.5rem;
 
     @media screen and (max-width: 767px) {
-        font-size: 1.6rem;
+        // font-size: 1.6rem;
+        font-size: 2.6rem;
+        padding: 2rem;
     }
 }
 
@@ -62,7 +64,8 @@ $space-XL: 2rem; //32px
         margin: 0;
 
         @media screen and (max-width: 767px) {
-            font-size: 1.5rem;
+            // font-size: 1.5rem;
+            font-size: 2rem;
         }
     }
 }
@@ -76,9 +79,16 @@ $space-XL: 2rem; //32px
         padding-top: $space-M;
     }
 
+    &__nameRuby {
+        // color: #34347f;;
+        color: #003c55;
+    }
+
     &__contentTitle {
         margin: 0;
         font-size: 1.4rem;
+        // color: #34347f;
+        color: #003c55;
 
         @media screen and (max-width: 767px) {
             font-size: 1.2rem;
@@ -92,12 +102,12 @@ $space-XL: 2rem; //32px
         gap: $space-M;
         margin: 0;
         padding-left: $space-L;
-        // padding: 0;
+        padding: 0;
     }
 
-    // &__skillArea {
-    //     list-style: none;
-    // }
+    &__skillArea {
+        list-style: none;
+    }
 
     &__skillTitle {
         margin: 0;
@@ -130,8 +140,8 @@ $space-XL: 2rem; //32px
         list-style: none;
         display: flex;
         flex-direction: column;
-        border: 1px solid #75d6ff;
-        ;
+        // border: 1px solid #75d6ff;
+        border: 1px solid #93b7c6;
         padding: $space-M;
         gap: $space-S;
     }
@@ -139,6 +149,8 @@ $space-XL: 2rem; //32px
     &__Title {
         margin: 0;
         font-size: 1.4rem;
+        // color: #3347f4;
+        color: #003c55;
 
         @media screen and (max-width: 767px) {
             font-size: 1.2rem;
@@ -152,6 +164,12 @@ $space-XL: 2rem; //32px
         padding: $space-S;
         width: 10rem;
         text-align: center;
+
+        @media screen and (max-width: 767px) {
+            width: 7rem;
+            height: 2rem;
+            line-height: 2rem;
+        }
 
         border: {
             width: 1px;
