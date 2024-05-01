@@ -127,7 +127,7 @@
 }
 @media screen and (max-width: 767px) {
   .works__list {
-    gap: 1.5rem;
+    gap: 1rem;
   }
 }
 .works__Title {
