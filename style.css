@@ -185,7 +185,8 @@
 .works__pic {
   width: 100%;
   height: 100%;
-  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .works__explanationArea {
   display: flex;
