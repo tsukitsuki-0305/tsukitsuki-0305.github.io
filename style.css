@@ -191,6 +191,7 @@
 .works__explanationArea {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .works__explanationTitle {
   margin: 0;
