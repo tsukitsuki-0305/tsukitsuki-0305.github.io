@@ -6,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style.css">
     <link rel=”icon” href=“favicon.ico”>
-
-
     <link rel="icon" href="favicon/favicon.ico" sizes="32x32"><!-- 32×32 -->
     <link rel="icon" href="favicon/safari-pinned-tab.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="favicon/site.webmanifest">
-
     <title>hazuki's Portfolio</title>
 </head>
 
@@ -42,47 +39,53 @@
                 <h3 class="about__contentTitle">SKILL</h3>
                 <ul class="about__skillLists">
                     <li class="about__skillArea">
-                        <h4 class="about__skillTitle">Vue.js</h4>
-                        <p class="about__skillText">
-                            エンジニアとして業務に当たる中で多く使用しておりました。研修では0から掲示板アプリの作成に取り組んでおりますが、実務では0から作成した経験はなく、すでにある製品の修正や機能追加といった業務を担当いたしました。
-                        </p>
+                        <?php
+                        $skillTitle = "Vue.js";
+                        $skillText = "エンジニアとして業務に当たる中で多く使用しておりました。研修では0から掲示板アプリの作成に取り組んでおりますが、実務では0から作成した経験はなく、すでにある製品の修正や機能追加といった業務を担当いたしました。";
+                        include(dirname(__FILE__) . "/component/skillList.php");
+                        ?>
                     </li>
                     <li class="about__skillArea">
-                        <h4 class="about__skillTitle">Node.js</Node>
-                        </h4>
-                        <p class="about__skillText">
-                            エンジニアとして業務に当たる中で使用しておりました。研修時以外では多くは使用しておりませんが、何度か使用した形です。
-                        </p>
+                        <?php
+                        $skillTitle = "Node.js";
+                        $skillText = "エンジニアとして業務に当たる中で使用しておりました。研修時以外では多くは使用しておりませんが、何度か使用した形です。";
+                        include(dirname(__FILE__) . "/component/skillList.php");
+                        ?>
                     </li>
                     <li class="about__skillArea">
-                        <h4 class="about__skillTitle">PostgreSQL</h4>
-                        <p class="about__skillText">
-                            エンジニアとして業務に当たる中で多く使用しておりました。研修時の使用の他、正しくデータを取得できているかなどを確認するために使用しておりました。
-                        </p>
+                        <?php
+                        $skillTitle = "PostgreSQL";
+                        $skillText = "エンジニアとして業務に当たる中で多く使用しておりました。研修時の使用の他、正しくデータを取得できているかなどを確認するために使用しておりました。";
+                        include(dirname(__FILE__) . "/component/skillList.php");
+                        ?>
                     </li>
                     <li class="about__skillArea">
-                        <h4 class="about__skillTitle">HTML</h4>
-                        <p class="about__skillText">
-                            実務での経験はあまり多くありませんが、大学時代に自分たちのプロジェクト（ゼミのようなもの）のサイトを作成したり、授業内の課題として作成した経験があります。また、Vue.jsでの開発に当たり、HTMLの知識使用も行いました。
-                        </p>
+                        <?php
+                        $skillTitle = "HTML";
+                        $skillText = "実務での経験はあまり多くありませんが、大学時代に自分たちのプロジェクト（ゼミのようなもの）のサイトを作成したり、授業内の課題として作成した経験があります。また、Vue.jsでの開発に当たり、HTMLの知識使用も行いました。";
+                        include(dirname(__FILE__) . "/component/skillList.php");
+                        ?>
                     </li>
                     <li class="about__skillArea">
-                        <h4 class="about__skillTitle">CSS</h4>
-                        <p class="about__skillText">
-                            上記のHTML同様、学生時代に多く使用しておりました。また、実務ではVue.jsで作成したアプリケーションの装飾にCSSやSCSSを使用しておりました。
-                        </p>
+                        <?php
+                        $skillTitle = "CSS";
+                        $skillText = "上記のHTML同様、学生時代に多く使用しておりました。また、実務ではVue.jsで作成したアプリケーションの装飾にCSSやSCSSを使用しておりました。";
+                        include(dirname(__FILE__) . "/component/skillList.php");
+                        ?>
                     </li>
                     <li class="about__skillArea">
-                        <h4 class="about__skillTitle">illustrator</h4>
-                        <p class="about__skillText">
-                            実務では使用しておりませんが、大学自体にロゴや画像の作成を行った経験があります。簡単な操作であれば行うことが可能です。
-                        </p>
+                        <?php
+                        $skillTitle = "illustrator";
+                        $skillText = "実務では使用しておりませんが、大学自体にロゴや画像の作成を行った経験があります。簡単な操作であれば行うことが可能です。";
+                        include(dirname(__FILE__) . "/component/skillList.php");
+                        ?>
                     </li>
                     <li class="about__skillArea">
-                        <h4 class="about__skillTitle">Photoshop</h4>
-                        <p class="about__skillText">
-                            実務では使用しておりませんが、大学自体に画像の編集を行った経験があります。簡単な操作であれば行うことが可能です。
-                        </p>
+                        <?php
+                        $skillTitle = "Photoshop";
+                        $skillText = "実務では使用しておりませんが、大学自体に画像の編集を行った経験があります。簡単な操作であれば行うことが可能です。";
+                        include(dirname(__FILE__) . "/component/skillList.php");
+                        ?>
                     </li>
                 </ul>
             </div>
